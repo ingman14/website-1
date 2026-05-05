@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	padding: 150px 0;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 120px;
+}
+
+nav a {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.header-content {
+	width: 438px;
+}
+
+.header-content h1 {
+	color: #ffffff;
+	font-size: 52px;
+	font-weight: 400;
+	text-shadow: 4px 1px 5px rgba(0, 0, 0, 0.41);
+	margin-bottom: 30px;
+}
+
+.header-content p {
+	color: #ffffff;
+	font-size: 20px;
+	line-height: 1.75;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+main {
+	padding: 100px 0;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-column {
+	width: 267px;
+}
+
+.left-column p {
+	color: #fe992a;
+	font-style: Italic;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.right-column {
+	width: 653px;
+	border-left: 1px solid #eaeaea;
+	padding-left: 40px;
+}
+
+.right-column h2 {
+	color: #fe992a;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+.right-column p {
+	color: #737c85;
+
+	font-size: 14px;
+	line-height: 2;
+}
+.right-column a {
+	color: #737c85;
+}
+
+footer {
+	padding: 100px 0;
+	background-color: #e56c69;
+}
+
+footer h3 {
+	font-size: 18px;
+	line-height: 1;
+	color: #ffffff;
+	margin-bottom: 15px;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li {
+	font-size: 14px;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+
+footer li:last-child {
+	margin-bottom: 0;
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.left > a {
+	display: block;
+	font-size: 14px;
+	line-height: 1;
+}
+
+.left ul {
+	margin-top: 25px;
+}
+
+.footer-content-wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.right {
+	display: flex;
+	gap: 75px;
+}
